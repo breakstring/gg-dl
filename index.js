@@ -68,8 +68,8 @@ async function GetPictures(){
     cli.progress(1);
     cli.spinner("下载完毕！开始合并。。。。。。。。");
     var ol = tileOverlap * 2 * -1;
-    var resuleName = await Go(wLevel,hLevel,fileExt,ol);
-    cli.spinner("下载完毕！合并为：" + resuleName,true);
+    var resultName = await Go(wLevel,hLevel,fileExt,ol);
+    cli.spinner("下载完毕！合并为：" + resultName,true);
 }
 
 async function Go(w,h,ext,ol){
