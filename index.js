@@ -91,7 +91,7 @@ async function Go(w,h,ext,ol){
     
     var resultFileName = process.argv[3] + ext;
 
-    await img.write("./result/" + resultFileName);
+    await img.write("./image/result/" + resultFileName);
     return resultFileName;
 
 }
